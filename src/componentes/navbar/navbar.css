@@ -1,0 +1,54 @@
+.divGeneral{
+    width: 85%;
+    margin: 0 auto; 
+}
+  
+.header {
+    background-color: #5c5c5c;
+    color: rgb(207, 202, 202);
+    padding: 2rem 0;
+    width: 100%; 
+}
+
+.logo {
+    letter-spacing: 15px;
+    font-size: 1.3em; 
+}
+
+.logo2{
+    margin: 0px 5px;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.barra {
+    display: none; 
+}
+
+.navegation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+.navegation ul li {
+    display: inline-block; 
+}
+.navegation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear; 
+    cursor: pointer;
+}
+
+.navegation ul li a:hover {
+    background: #040404;
+    border-radius: 5px;
+    color: whitesmoke; 
+    transition: all 0.4s linear; 
+}
